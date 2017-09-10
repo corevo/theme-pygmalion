@@ -38,7 +38,7 @@ function fish_prompt
 
   # Top
   echo -n $purple$USER$normal$cyan@$normal$yellow$__fish_prompt_hostname$normal$red:$normal$cyan(prompt_pwd)$normal
-  __fish_git_prompt
+  __fish_vcs_prompt
 
   echo
 
